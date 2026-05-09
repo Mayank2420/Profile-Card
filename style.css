@@ -34,8 +34,8 @@ body{
 }
 @keyframes float {
   0%   { transform: translateY(0px); }
-  50%  { transform: translateY(-10px); } /* upar jaata hai */
-  100% { transform: translateY(0px); } /* wapas aata hai */
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); } 
 }
 .tags{
     display: flex;
