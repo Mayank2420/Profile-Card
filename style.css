@@ -1,0 +1,83 @@
+body{
+    background-color: #0d0d14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    background: rgba(255, 255, 255, 0.04);
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     border-radius: 20px;
+     padding: 30px;
+     width: 300px;
+     text-align: center;
+     font-family: 'fira code', monospace;
+     color: white;
+}
+.Avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #7f77dd, #5dcaa5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    animation: float 3s ease-in-out infinite;
+    
+}
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); } /* upar jaata hai */
+  100% { transform: translateY(0px); } /* wapas aata hai */
+}
+.tags{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+.tags span{
+     background: rgba(127, 119, 221, 0.15);
+     color: #afa9ec;
+     font-size: 14px;
+     padding: 4px 10px;
+     border-radius: 20px;
+     border: 1px solid rgba(127, 119, 221, 0.3);
+}
+button{
+    background: transparent;
+    color: #888;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 6px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+button:hover{
+    color: #afa9ec;
+    border-color: rgba(127,119,221,0.4);
+    background: rgba(127,119,221,0.08);;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+.links a:hover{
+    color: #afa9ec;
+}
+hr{
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.1);
+    margin: 15px;
+}
